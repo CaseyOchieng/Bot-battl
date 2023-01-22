@@ -109,31 +109,3 @@ Example Response:
 {}
 ```
 
-## Advanced Deliverables
-
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, or even after the code challenge, they are a great way to
-stretch your skills.
-
-> Note: If you are going to attempt these advanced deliverables, please be sure
-> to have a working commit with all the Core Deliverables first!
-
-As a user, I should be able to:
-
-- Choose if I want to enlist a bot into my army or just see their data. Clicking
-  on the card should instead display a show view (`BotSpecs`) for that bot,
-  which should replace `BotsCollection`. BotSpecs should have two buttons: one
-  to go back to the list view and another to enlist that bot. Your app could
-  look like the following:
-
-![Full demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/full_demo.gif)
-
-- Sort bots by their health, damage or armor. For this, create a new component,
-  `SortBar`.
-- When I enlist a bot it will be **removed** from the `BotCollection` and added
-  to `YourBotArmy`.
-- Filter bots by their class. We can select a few filters at the same time.
-- Sort bots by their health, damage or armor. For this, create a new component,
-  `SortBar`.
-- Only enlist **one** bot from each `bot_class`. The classes are
-  `["Support", "Medic", "Assault", "Defender", "Captain", "Witch"]`.
