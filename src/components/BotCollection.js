@@ -5,7 +5,7 @@ function BotCollection({ collection, clickHandler, handleDelete }) {
   // Your code here
   return (
     <div className="ui four column grid">
-      {"Bot Collection click on a bot to add it to your army."}
+      {" click on a bot to add it to your army."}
       <div className="row">
         {collection.map((bot) => (
           <BotCard key={bot.id} bot={bot} clickHandler={clickHandler} handleDelete={handleDelete} />
