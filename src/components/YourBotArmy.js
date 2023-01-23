@@ -7,7 +7,7 @@ function YourBotArmy({ collection, clickHandler, deleteHandler }) {
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
-        {"Click on a Bot on the bot to add it to your army."}
+        {"CLICK ON A BOT TO ADD."}
         <div className="row bot-army-row">
           {collection.map((bot) => (
             <BotCard key={bot.id} bot={bot} clickHandler={clickHandler} deleteHandler={deleteHandler} />
