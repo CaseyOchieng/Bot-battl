@@ -50,7 +50,7 @@ function BotCard({ bot, clickHandler, handleDelete }) {
                   handleDelete(bot);
                 }}
               >
-                Delete Bot
+                Delete
               </button>
             </div>
           </span>
