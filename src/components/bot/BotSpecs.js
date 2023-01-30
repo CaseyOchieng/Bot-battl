@@ -15,7 +15,11 @@ function BotSpecs({ bot }) {
       <div className="ui two column centered grid">
         <div className="row">
           <div className="four wide column">
-            <img alt="oh no!" className="ui medium circular image bordered" src={bot.avatar_url} />
+            <img
+              alt="oh no!"
+              className="ui medium circular image bordered"
+              src={bot.avatar_url}
+            />
           </div>
           <div className="four wide column">
             <h2>Name: {bot.name}</h2>
@@ -46,10 +50,22 @@ function BotSpecs({ bot }) {
                 </div>
               </div>
             </div>
-            <button className="ui button fluid" onClick={() => console.log("connect this to a function that shows all bots")}>
+            <button
+              className="ui button fluid"
+              onClick={() =>
+                console.log("connect this to a function that shows all bots")
+              }
+            >
               Go Back
             </button>
-            <button className="ui button fluid" onClick={() => console.log("connect this to a function that adds this bot to your bot army list")}>
+            <button
+              className="ui button fluid"
+              onClick={() =>
+                console.log(
+                  "connect this to a function that adds this bot to your bot army list"
+                )
+              }
+            >
               Enlist
             </button>
           </div>
